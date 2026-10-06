@@ -1,0 +1,149 @@
+/* estilos generales*/
+body{
+    margin: 0;
+}
+/*estilos del encabezado*/
+header{
+    width: 100%;
+    height: 250px;
+}
+header img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/*estilos del menu*/
+nav{
+    background-color: darkslategrey;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    position: relative;
+}
+nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav a:hover{
+    background-color: lightblue;
+}
+/*estilos del submenu*/
+nav li ul{
+    display: none;
+    position: absolute;
+    background-color: darkslategray;
+    min-width: 180px; 
+}
+nav li:hover ul {
+    display: block;
+}
+/*Estilos del pie de pagina*/
+footer{
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+/*Estilos para el cuerpo de l apagina*/
+section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    min-width: 350px;
+}
+.principal{
+    width: 70%;
+    background-color: rgb(90, 134, 134);
+    padding: 20px;
+    border: 2px solid darkseagreen;
+}
+.secundario{
+    width: 30%;
+    background-color: rgb(90, 134, 134);
+    padding: 20px;
+    border: 2px solid darkseagreen;
+}
+/* 
+   ESTILOS EXCLUSIVOS: MI MUNDO DIGITAL */
+
+/* Bloque contenedor de cada tema */
+.tema-digital {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Título de cada subtema */
+.tema-digital h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+/* Párrafos descriptivos */
+.tema-digital p {
+    margin-bottom: 12px;
+    color: #444444;
+}
+
+/* Imágenes dentro de los temas */
+.tema-digital img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+    display: block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Enlaces relacionados */
+.tema-digital a {
+    color: #116b47; /* Verde institucional */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tema-digital a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor y reproductor de videos */
+.contenedor-video {
+    margin-top: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-video iframe {
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+/* Línea separadora entre temas */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 30px 0;
+}
